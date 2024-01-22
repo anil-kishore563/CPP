@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Install xeus-cling
+conda install -c conda-forge xeus-cling
+
+# Register the xeus-cling kernel
+jupyter kernelspec install --user --name cling-cpp14 --display-name "C++14 (cling)"
